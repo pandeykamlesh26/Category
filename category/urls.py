@@ -5,7 +5,7 @@ from category.views import CategoryViewSet, SubCategoryViewSet
 
 router = DefaultRouter()
 
-router.register('', CategoryViewSet)
 router.register('sub-category', SubCategoryViewSet)
+router.register('', CategoryViewSet)
 
 urlpatterns = router.urls
