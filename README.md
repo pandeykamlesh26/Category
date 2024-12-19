@@ -1,18 +1,18 @@
 # category
 
-category is a Django app to facilitate web-based category management.
+Category is a Django app to facilitate web-based category management.
 
 Quick start
 -----------
 
-1. Add "category" to your INSTALLED_APPS setting like this::
+1. Add "Category" to your INSTALLED_APPS setting like this::
 
     ``INSTALLED_APPS = [
         ...,
         "category",
     ]``
 
-2. Include the category URLconf in your project urls.py like this::
+2. Include the Category URLconf in your project urls.py like this::
 
     ``path("category/", include("category.urls")),``
 
