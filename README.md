@@ -1,4 +1,4 @@
-# category
+# Category
 
 Category is a Django app to facilitate web-based category management.
 
